@@ -79,11 +79,28 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    .top-content .text-container {
+        width: 48%;
+        padding: 20px 10px;
+    }
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 20px 0;
 }
+
+    header nav a {
+        margin: 0 30px;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+    }
+
+    header nav a:hover {
+        color: gray;
+    }
 
 .middle-content {
     margin-bottom: 20px;
